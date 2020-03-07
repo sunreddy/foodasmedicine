@@ -1,19 +1,20 @@
 
 html {
     scroll-behavior: smooth;
-     overflow-x: hidden;
+     overflow-x: hidden !important;
 }
 
 body {
     margin: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+   overflow: auto;
     /* position: relative; */
 }
 .container {
     /*margin: 0 auto; */
     max-width: 2000px;
     text-align: left;
-    overflow-x: hidden;
+    overflow-x: hidden! important;
    
 }
 
