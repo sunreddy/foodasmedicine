@@ -94,11 +94,6 @@
     grid-template-columns: 270px;  
     font-size: 15px;    
     }
-        
-    #Recipes {
-    top: 4630px;
-    height: 2.5px;
-    }
     
     .bar-2 {
     top: 1730px;
@@ -121,6 +116,11 @@
     height: 2.5px;
     }    
       
+    #Recipes {
+    top: 4660px;
+    height: 2.5px;
+    }    
+        
     h6 { 
     font-size: 27px;
     left: 13.5%;
@@ -130,40 +130,40 @@
 
     .kathi-roll {
     left: 13.5%;
-    top: 4760px;
+    top: 4830px;
 }    
     
     .pho {
     left: 13.5%;
-    top: 5030px;
+    top: 5110px;
         }  
         
     .rasfroyo {
     left: 13.5%;
-    top: 5300px;
+    top: 5390px;
         }
         
     .mex-kale{
     left: 13.5%;
-    top: 5570px;
+    top: 5670px;
          }   
       
     .soup {
     left: 13.5%;
-    top: 5840px; 
+    top: 5950px; 
         }         
     
      .chili {
     left: 13.5%;
-    top: 6110px; 
+    top: 6230px; 
         }     
         
     .container {
-    min-height: 6400px;
+    min-height: 6570px;
      }
         
     .footer{
-    top: 6400px;
+    top: 6570px;
         }
         
     }
@@ -193,7 +193,7 @@
     } 
       
     #Recipes {
-    top: 4630px;
+    top: 4660px;
     height: 2.5px;
     }
         
@@ -210,16 +210,17 @@
     h6 { 
     font-size: 27px;
     left: 13.5%;
-    margin-top: 4320px;
+    margin-top: 4370px;
     grid-template-columns: 270px;
     } 
         
+        
     .container {
-    min-height: 6400px;
+    min-height: 6570px;
      }
         
     .footer{
-    top: 6400px;
+    top: 6570px;
         }
         
     }
@@ -314,11 +315,6 @@
     font-size: 15px;    
     }
         
-    #Recipes {
-    top: 4240px;
-    height: 2.5px;
-    }
-        
     .bar-2 {
     top: 1690px;
     height: 2.5px;
@@ -338,6 +334,11 @@
     top: 3310px;
     height: 2.5px;
     }  
+        
+    #Recipes {
+    top: 4240px;
+    height: 2.5px;
+    }    
        
     h6{
     left: 13.5%;
