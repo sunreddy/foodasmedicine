@@ -7,17 +7,24 @@ html {
 body {
     margin: 0;
     overflow-x: hidden !important;
-   overflow: auto;
     /* position: relative; */
 }
 .container {
     /*margin: 0 auto; */
     max-width: 2000px;
     text-align: left;
-    overflow-x: hidden! important;
-   
+    overflow: hidden;
 }
 
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
 
 {box-sizing: border-box;}
 
