@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="112px" viewBox="0 0 99 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.3211782%" y1="9.04239779%" x2="78.6788218%" y2="90.9576022%" id="linearGradient-1">
+            <stop stop-color="#FFE211" offset="0%"></stop>
+            <stop stop-color="#FFC107" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.359486607">
+        <g id="About" transform="translate(-1341.000000, -866.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1341,915.138033 L1404.94504,870.363236 C1415.85484,862.724111 1430.89172,865.375518 1438.53084,876.28532 C1446.16997,887.195121 1443.51856,902.231997 1432.60876,909.871123 L1341,980.15625 L1341,915.138033 Z" id="Rectangle-Copy-5" transform="translate(1391.947038, 923.078125) scale(-1, 1) translate(-1391.947038, -923.078125) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="175px" viewBox="0 0 312 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="43.5495729%" y1="49.96328%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#7D5BDB" offset="0%"></stop>
+            <stop stop-color="#4F35BA" offset="66.5332031%"></stop>
+            <stop stop-color="#30189A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.359486607">
+        <g id="Desktop-HD" transform="translate(-320.000000, -849.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M316.365047,919.096495 L606.034359,919.096495 C632.218814,919.096495 653.445509,940.32319 653.445509,966.507646 L653.445509,966.507646 C653.445509,992.692101 632.218814,1013.9188 606.034359,1013.9188 L451.303531,1013.9188 L316.365047,919.096495 Z" id="Rectangle-Copy-4" transform="translate(484.905278, 966.507646) rotate(-35.000000) translate(-484.905278, -966.507646) "></path>
+        </g>
+    </g>
+</svg>

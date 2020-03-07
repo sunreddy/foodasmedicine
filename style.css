@@ -1,0 +1,793 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden !important;
+    
+}
+.container {
+    /*margin: 0 auto; */
+    max-width: 2000px;
+    text-align: left;
+   
+}
+/*
+#page-container {
+  position: relative;
+  min-height: 760vh;
+}
+
+#content-wrap {
+  padding-bottom: 1.5rem;    /* Footer height */
+} */
+
+{box-sizing: border-box;}
+
+
+/****************** PAGE 1 HOME *************************************/
+
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 9999;
+    box-shadow: 0 2px 8px 0 #D3D2D2;
+    background-color:rgba(255, 255, 255,0.9);
+
+}
+
+
+.header a {
+    font-family: Avenir;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #36c4a4;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.logo {
+   display: none;
+} 
+
+ @media only screen and (min-width:700px)  {
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    margin-left:85px;
+    margin-top: 0px;
+    float: left;
+}
+}
+
+.header-right {
+    float: right;
+}
+
+
+@media screen and (max-width: 550px){ 
+    .header-right {
+        float: none;
+    }
+}
+
+.header-right a.active {
+     color: #36c4a4;
+    }
+
+.header-right .icon {
+  display: none;
+}
+/*change positioning of icon */
+@media screen and (max-width: 550px) {
+  .header-right a:not(:first-child) {display: none;}
+  .header-right a.icon {
+    float: right;
+    display: block;
+
+  }
+    .header-right a.active {
+        display: none;
+    }
+}
+/* space after responsive is important*/
+@media screen and (max-width: 550px) {
+  .header-right.responsive {position: relative;}
+  .header-right.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header-right.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.food-heart {
+   /*height: 570px;
+    left: 30%; */
+    margin-top: 0px;
+    padding: 0px;
+    border: 0px solid clear;
+    margin: 0;
+    background-size: contain;
+    position: absolute;
+    float: right;
+    width: 100%;
+}
+
+@media only screen and (max-width:700px) { 
+.food-heart {
+   display: none;
+}
+}  
+
+.food-heart-mobile {
+    width: 100%;
+    background-size: contain;
+    position: absolute;
+    background-size: contain;
+   }
+
+@media only screen and (min-width:700px) {
+    .food-heart-mobile {
+   display: none;
+    }
+}
+
+ h1 {
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #37cbaa;
+    position: absolute;
+    display: grid;
+    animation-duration: 3s;
+    animation-delay: 0s;
+} 
+
+
+.h2{
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 1.64px;
+    color: #4a4a4a;
+    position: absolute;
+    display: grid; 
+    grid-row-gap: 20px;
+    animation-duration: 3s;
+    animation-delay: 0s;
+} 
+
+
+body {
+  background-color:#DEFFF8;
+    background-color: white;
+}
+
+.button { 
+    font-family: Avenir;
+    letter-spacing: 1.7px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 47.5px;
+    background-image: linear-gradient(109deg, #11e0c4, #7fd324);
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+
+.button1:hover {
+    box-shadow: 0 2px 8px 0 #50e3c2;
+}
+
+/* Home is anchor to first pink rectangle */
+#Home {
+  width: 300px;
+  height: 50px;
+  transform: rotate(-35deg);
+  opacity: 0.36;
+  border-radius: 60px;
+  background-image: linear-gradient(262deg, #fdc5d3, #fa355a);
+  border: none;
+  position: absolute;
+  left: 500px;
+  top: 20px;
+}
+
+
+.R-purple {
+  width: 950px;
+  height: 120px;
+  border: none;
+  position: absolute;
+  top: 555px;
+  left: -120px;
+}
+
+.R-yellow {
+    position: absolute;
+    top: 450px;
+    left: -5px;
+}
+
+.R-green {
+    width: 950px;
+    height: 120px;
+    position: absolute;
+    top: 20px;
+    left: -450px;      
+}
+
+/* Home is anchor to first pink rectangle */
+@media only screen and (max-width:700px) {
+    #Home {
+  width: 30px;
+  height: 5px;
+  transform: rotate(-35deg);
+  opacity: 0.36;
+  border-radius: 60px;
+  background-image: linear-gradient(262deg, #fdc5d3, #fa355a);
+  border: none;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+
+    }
+    .R-purple {
+    display: none;
+    }
+    .R-yellow {
+   display: none;
+    }
+    .R-green {
+        display: none;
+    }
+}
+
+
+
+
+/**********************PAGE 2 ABOUT *******************************/
+
+/* First bar */
+#About {
+    position: absolute;
+    /*top: 675px;
+    height: 4px; */
+    width: 10000px;
+    background-color: #FAD5C6;
+    opacity: 0.25;
+    left: 0px;
+    border: none;
+
+}
+/*@media only screen and (max-width:700px) {
+    #About {
+    top: 760px;
+    height: 2.5px;
+    }
+} */
+
+
+
+.h3{
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+    position: absolute;
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.small-plates{
+    width: 100%;
+    position: absolute;
+    float: left;
+    padding: 0;
+}
+
+@media only screen and (max-width:700px) {
+    .small-plates {
+    display: none; 
+    }
+}
+
+.small-plates-mobile {
+    width: 100%;
+    position: absolute;
+}
+@media only screen and (min-width:700px) {
+    .small-plates-mobile {
+        display: none;
+}
+}
+
+
+@media only screen and (max-width:700px) {
+    #Rectangle-pink-2 {
+        display: none;
+    }
+    .Rectangle-green-2 {
+        display: none;
+    }
+    .Rectangle-purple-2{
+        display: none;
+    }
+    .Rectangle-yellow-2 {
+        display:none;
+    }
+}
+
+#Rectangle-pink-2 {
+    position: absolute;
+    top: 679px;
+    margin-left: 27%; 
+    /* left: 54%; */
+}
+
+.Rectangle-green-2 {
+    position: absolute;
+    top: 800px;
+    right: -5px;
+}
+
+.Rectangle-purple-2{
+    position: absolute;
+    top: 1270px;
+    margin-left: 27%; 
+    /* left: 54%; */
+}
+
+.Rectangle-yellow-2 {
+    position: absolute;
+    top: 1150px;
+    right: -5px;
+}
+
+.bar-2 { 
+    position: absolute;
+    /*top: 1378px;
+    height: 4px; */
+    width: 10000px;
+    background-color: #FAD5C6;
+    opacity: 0.25;
+    left: 0px;
+    border: none;
+} /*
+@media only screen and (max-width:700px) {
+    .bar-2 {
+    top: 1730px;
+    height: 2.5px;
+    }
+}
+*/
+
+/***************PAGE 3 BERRIES CRUCIFEROUS VEGEGETABLES FRUITS ******************/
+
+
+.h4{
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+    position: absolute;
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.salad-mobile {
+      width: 100%;
+      position: absolute;
+}
+
+@media only screen and (min-width:700px) {
+    .salad-mobile {
+    display: none; 
+    }
+}
+
+.salad-berries {
+     width: 100%;
+     position: absolute;
+}
+
+
+@media only screen and (max-width:700px) {
+    .salad-berries {
+    display: none; 
+    }
+}
+
+.Rectangle-pink-3 {
+  width: 100%;
+  height: 110px;
+  border: none;
+  position: absolute;
+  margin-left: -400px; 
+  /*left: -170px; */
+  top: 1382px;
+ }
+
+.Rectangle-purple-3 {
+  width: 950px;
+  height: 120px;
+  border: none;
+  position: absolute;
+  top: 1982px;
+  margin-left: -420px; 
+  /* left:-170px; */
+}
+
+
+.Rectangle-yellow-3 {
+    position: absolute;
+    top: 1902px;
+    margin-left: -315px;
+    /* left: 0px; */
+}
+
+.Rectangle-green-3 {
+    width: 950px;
+    height: 120px;
+    position: absolute;
+    top: 1422px;
+    margin-left: -745px;    
+   /* left: -425px; */
+}
+
+@media only screen and (max-width:700px) {
+     .Rectangle-pink-3{
+        display: none;
+    }
+    .Rectangle-purple-3 {
+        display: none;
+    }
+    .Rectangle-yellow-3{
+        display: none;
+    }
+   .Rectangle-green-3 {
+        display:none;
+    }
+}
+
+.bar-3 { 
+    position: absolute;
+    /*top: 2102px;
+    height: 4px;*/
+    width: 10000px;
+    background-color: #FAD5C6;
+    opacity: 0.25;
+    left: 0px;
+    border: none;
+}
+
+/* @media only screen and (max-width:700px) {
+    .bar-3 {
+    top: 2560px;
+    height: 2.5px;
+    }
+} */
+
+/******************PAGE 4 LEGUMES GRAINS FISH ***********************/
+
+
+
+.legrainsfish {
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+    position: absolute;
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.pastafish{
+    width: 100%;
+    position: absolute;
+    float: left;
+    padding: 0;
+}
+
+@media only screen and (max-width:700px) {
+    .pastafish {
+    display: none; 
+    }
+}
+
+.pastafish-mobile {
+    width: 100%;
+    position: absolute;
+}
+@media only screen and (min-width:700px) {
+    .pastafish-mobile {
+        display: none;
+}
+}
+
+.Rectangle-pink-4 {
+  position: absolute;
+  top: 2106px;
+  margin-left: 27%; 
+  /* left: 54%; */
+}
+
+.Rectangle-green-4 {
+    position: absolute;
+    top: 2240px;
+    right: -5px;
+}
+
+.Rectangle-purple-4{
+    position: absolute;
+    top: 2670px;
+    margin-left: 27%;
+    /* left: 54%; */
+}
+
+.Rectangle-yellow-4 {
+    position: absolute;
+    top: 2550px;
+    right: -5px;
+}
+
+
+@media only screen and (max-width:700px) {
+    .Rectangle-pink-4 {
+        display: none;
+    }
+    .Rectangle-green-4 {
+        display: none;
+    }
+    .Rectangle-purple-4{
+        display: none;
+    }
+    .Rectangle-yellow-4 {
+        display:none;
+    }
+}
+.bar-4 { 
+    position: absolute;
+    /*top: 2778px;
+    height: 4px; */
+    width: 10000px;
+    background-color: #FAD5C6;
+    opacity: 0.25;
+    left: 0px;
+    border: none;
+}
+
+/*@media only screen and (max-width:700px) {
+    .bar-4 {
+    top: 3450px;
+    height: 2.5px;
+    }
+} */
+
+
+/******************PAGE 5 HERBS AND SPICES ***********************/
+
+h5 {
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #37cbaa;
+    position: absolute;
+    display: grid;
+
+}
+
+.herbspices {
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+    position: absolute;
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+
+.Rectangle-pink-5 {
+  width: 100%;
+  height: 110px;
+  border: none;
+  position: absolute;
+  margin-left: -400px; 
+/* left: -170px; */
+  top: 2782px;
+ }
+
+.Rectangle-purple-5 {
+  width: 950px;
+  height: 120px;
+  border: none;
+  position: absolute;
+  top: 3502px;
+  margin-left: -420px; 
+  /*left: -170px; */
+}
+
+
+.Rectangle-yellow-5 {
+    position: absolute;
+    top: 3452px;
+    margin-left: -315px; 
+    /* left: 0px; */
+}
+
+.Rectangle-green-5 {
+    width: 950px;
+    height: 120px;
+    position: absolute;
+    top: 2822px;
+    margin-left: -745px;    
+    /* left: -425px; */
+}
+
+@media only screen and (max-width:700px) {
+     .Rectangle-pink-5{
+        display: none;
+    }
+    .Rectangle-purple-5 {
+        display: none;
+    }
+    .Rectangle-yellow-5{
+        display: none;
+    }
+   .Rectangle-green-5 {
+        display:none;
+    }
+}
+
+
+
+/******************PAGE 5 Recipes ***********************/
+
+/*Recipes bar*/
+#Recipes { 
+    position: absolute;
+    width: 10000px;
+    background-color: #FAD5C6;
+    opacity: 0.25;
+    left: 0px;
+    border: none;
+}
+
+
+h6 {
+    font-family: Athelas;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: #37cbaa;
+    position: absolute;
+    display: grid;
+
+}
+
+.kathi-roll {
+    position: absolute;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    width: 280px;
+    height: 211.57px;
+
+}
+
+
+.kathi-roll:hover {
+      box-shadow: 0 10px 40px 0 #b2a6d0;
+   
+}
+
+.pho {
+     position: absolute;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    width: 280px;
+    height: 211.57px;
+   
+}
+
+.pho:hover {
+       box-shadow: 0 10px 40px 0 rgba(85, 138, 130, 0.5);
+   
+}
+
+.rasfroyo{
+    position: absolute;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    width: 280px;
+    height: 211.57px;
+}
+
+.rasfroyo:hover {
+    box-shadow: 0 10px 40px 0 #c8c1a3;
+}
+
+.mex-kale {
+    position: absolute;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    width: 280px;
+    height: 211.57px;
+}
+
+.mex-kale:hover {
+    box-shadow: 0 10px 40px 0 rgba(194, 120, 145, 0.5);
+}
+
+.soup {
+    position: absolute;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    width: 280px;
+    height: 211.57px;
+}
+
+.soup:hover {
+    box-shadow: 0 10px 40px 0 rgba(129, 153, 52, 0.5);
+}
+
+.chili {
+    position: absolute;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    width: 280px;
+    height: 211.57px;
+}
+
+.chili:hover {
+     box-shadow: 0 10px 40px 0 rgba(99, 63, 149, 0.5);
+}
+
+.footer {
+  background-color: #37cbaa;
+  position: absolute;
+  left: 0;
+  width: 10000px;
+  color: white;
+  text-align: center;
+  height: 25px; 
+
+}
+
+
+
+
+
+
+

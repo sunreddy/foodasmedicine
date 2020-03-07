@@ -1,0 +1,747 @@
+/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+    .header a {
+    float: none;
+    text-align: left;
+    margin-left: 9%;
+    }
+
+    .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    margin-left:60px;
+    margin-top: 0px;
+    float: left;
+}   
+        
+    h1 { 
+    font-size: 25px;
+    left: 13.5%;
+    margin-top: 120px;
+    grid-template-columns: 270px;
+     }
+        
+    .h2 {
+    left: 13.5%;
+    margin-top: 180px; 
+    grid-template-columns: 270px;
+    font-size: 15px;
+        }
+        
+    .button {
+    margin-left: 13.5%;
+    margin-top: 320px;
+    font-size: 16px;
+    font-weight: 450;  }
+        
+    .food-heart-mobile {
+    height: 230px;
+    left: 0%;
+    margin-top: 450px; 
+   /* top: 450px; */
+    }
+        
+    .h3{
+    left: 13.5%;
+    top: 820px; 
+    grid-template-columns: 270px;  
+    font-size: 15px;
+    }  
+    
+    .small-plates-mobile {
+    height: 240px;
+    left: -18%;
+    margin-top: 1430px; 
+    /* top: 1430px; */
+}    
+    .h4{
+    left: 13.5%;
+    margin-top: 1430px;   
+    grid-template-columns: 270px;
+    font-size: 15px;
+}
+    .salad-mobile {
+     height: 240px;
+     left: 0%;
+     margin-top: 2230px; 
+    /* top: 2230px; */
+} 
+    .legrainsfish {
+    left: 13.5%;
+    margin-top: 2270px; 
+    grid-template-columns: 270px;  
+    font-size: 15px;  
+        }
+    
+    .pastafish-mobile {
+    height: 240px;
+    left: 0%;
+    /*margin-top: 3140px; */
+    top: 3140px;
+        } 
+        
+    h5 { 
+    font-size: 25px;
+    left: 13.5%;
+    margin-top: 3150px;
+    grid-template-columns: 270px;
+        }    
+        
+    .herbspices {
+    left: 13.5%;
+    margin-top: 3220px; 
+    grid-template-columns: 270px;  
+    font-size: 15px;    
+    }
+        
+    #Recipes {
+    top: 4620px;
+    height: 2.5px;
+    }
+    
+    .bar-2 {
+    top: 1730px;
+    height: 2.5px;
+    }  
+    
+    /*First bar*/
+    #About {
+    top: 740px;
+    height: 2.5px;
+    }  
+        
+    .bar-3 {
+    top: 2550px;
+    height: 2.5px;
+    }
+    
+    .bar-4 {
+    top: 3450px;
+    height: 2.5px;
+    }    
+      
+    h6 { 
+    font-size: 27px;
+    left: 13.5%;
+    margin-top: 4320px;
+    grid-template-columns: 270px;
+    }        
+
+    .kathi-roll {
+    left: 13.5%;
+    top: 4760px;
+}    
+    
+    .pho {
+    left: 13.5%;
+    top: 5030px;
+        }  
+        
+    .rasfroyo {
+    left: 13.5%;
+    top: 5300px;
+        }
+        
+    .mex-kale{
+    left: 13.5%;
+    top: 5570px;
+         }   
+      
+    .soup {
+    left: 13.5%;
+    top: 5840px; 
+        }         
+    
+     .chili {
+    left: 13.5%;
+    top: 6110px; 
+        }     
+        
+    .container {
+    min-height: 6400px;
+     }
+        
+    .footer{
+    top: 6400px;
+        }
+        
+    }
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        
+    h1 { 
+    font-size: 27px;
+    left: 13.5%;
+    margin-top: 120px;
+    grid-template-columns: 270px;
+    } 
+        
+    .button {
+    margin-left: 65px;
+    margin-top: 320px;
+    font-size: 16px;
+    font-weight: 450;  }
+   
+     h5 { 
+    font-size: 27px;
+    left: 13.5%;
+    margin-top: 3150px;
+    grid-template-columns: 270px;
+    } 
+      
+    #Recipes {
+    top: 4620px;
+    height: 2.5px;
+    }
+        
+    #About {
+    top: 740px;
+    height: 2.5px;
+    } 
+    
+    .bar-4 {
+    top: 3450px;
+    height: 2.5px;
+    }  
+       
+    h6 { 
+    font-size: 27px;
+    left: 13.5%;
+    margin-top: 4320px;
+    grid-template-columns: 270px;
+    } 
+        
+    .container {
+    min-height: 6400px;
+     }
+        
+    .footer{
+    top: 6400px;
+        }
+        
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 550px) {
+        
+    .header a {
+    float: left;
+    text-align: center;
+    margin-left: 40px; 
+    }  
+        
+    h1 { 
+    font-size: 40px;
+    left: 13.5%;
+    margin-top: 120px;
+    grid-template-columns: auto;
+    
+    }
+       
+    .h2 {
+    left: 13.5%;
+    top: 15px; 
+    grid-template-columns: 340px;
+    font-size: 16px;
+        }
+        
+    .button {
+    margin-left: 13.5%;
+    margin-top: 330px;
+    font-size: 16px;
+    font-weight: 450;  } 
+        
+    .food-heart-mobile {
+    height: 250px;
+    left: -15%;
+    margin-top: 450px; 
+    /* top: 450px; */
+    }    
+        
+    .h3{
+    left: 13.5%;
+    top: 840px; 
+    grid-template-columns: 340px;  
+    font-size: 15px;
+    }   
+        
+    .small-plates-mobile {
+    height: 280px;
+    left: -25%;
+    margin-top: 1320px; 
+    /* top: 1320px; */
+}    
+    .h4{
+    left: 13.5%;
+    margin-top: 1400px;   
+    grid-template-columns: 340px;
+    font-size: 15px;
+}
+    .salad-mobile {
+     height: 240px;
+     left: -15%;
+     margin-top: 2160px; 
+    /* top: 2160px; */
+}    
+    .legrainsfish {
+    left: 13.5%;
+    margin-top: 2200px; 
+    grid-template-columns: 340px;  
+    font-size: 15px;  
+        }  
+    .pastafish-mobile{    
+    height: 240px;
+    left: -15%;
+    margin-top: -150px; 
+    /* top: 3000px; */
+    }
+        
+    h5{
+    left: 13.5%;
+    margin-top: 3010px; 
+    grid-template-columns: 340px;  
+    font-size: 40px;
+    } 
+        
+    .herbspices {
+    left: 13.5%;
+    margin-top: 3090px; 
+    grid-template-columns: 400px;  
+    font-size: 15px;    
+    }
+        
+    #Recipes {
+    top: 4240px;
+    height: 2.5px;
+    }
+        
+    .bar-2 {
+    top: 1690px;
+    height: 2.5px;
+    } 
+    
+    #About {
+    top: 760px;
+    height: 2.5px;
+    }   
+        
+    .bar-3 {
+    top: 2490px;
+    height: 2.5px;
+    }
+    
+    .bar-4 {
+    top: 3310px;
+    height: 2.5px;
+    }  
+       
+    h6{
+    left: 13.5%;
+    margin-top: 3930px; 
+    grid-template-columns: 340px;  
+    font-size: 40px;
+    } 
+    
+   .kathi-roll {
+    left: 13.5%;
+    top: 4400px;
+}    
+        
+    .pho {
+    left: 13.5%;
+    top: 4660px;
+        } 
+        
+    .rasfroyo {
+    left: 13.5%;
+    top: 4920px;
+        }
+    
+    .mex-kale{
+    left: 13.5%;
+    top: 5180px;
+         }   
+      
+    .soup {
+    left: 13.5%;
+    top: 5440px; 
+        }  
+        
+    .chili {
+    left: 13.5%;
+    top: 5710px; 
+        }  
+        
+    .container {
+    min-height: 6000px;
+     }
+    
+    .footer{
+    top: 6000px;
+        } 
+        
+}
+        
+        
+ /*small tablets*/
+@media only screen and (min-width : 700px) {
+    .food-heart {
+    height: 500px;
+    left: 50%;
+}
+    .h3{
+    top: 810px;
+    left: 43.5%;
+    grid-template-columns: 340px;  
+    font-size: 15px;
+    }   
+    
+    .small-plates{
+    height: 450px;
+    left: -34%;
+    margin-top: 679px; 
+    /* top: 679px; */
+}   
+
+    .h4{
+    left: 13.5%;
+    margin-top: 1150px;   
+    grid-template-columns: 290px;
+    font-size: 15px;
+}
+     .salad-berries {
+    height: 540px;
+    left: 35%;
+    margin-top: 1382px; 
+    /* top: 1382px; */
+}
+     
+    .legrainsfish {
+    left: 43.5%;
+    margin-top: 1860px; 
+    grid-template-columns: 340px;  
+    font-size: 15px;
+    }   
+
+    .pastafish {
+    height: 450px;
+    left: -34%;
+    margin-top: 2106px; 
+    /* top: 2106px; */
+    }
+    
+    h5{
+    left: 13.5%;
+    margin-top: 2560px; 
+    grid-template-columns: 340px;  
+    font-size: 40px;
+    } 
+    
+    .herbspices {
+    left: 100px;
+    margin-top: 2650px; 
+    grid-template-columns: 300px 300px;  
+    grid-column-gap: 40px;
+    font-size: 15px;        
+    }
+    
+    #Recipes {
+    top: 3622px;
+    height: 4px;
+    }
+    
+    .bar-2{
+    top: 1378px;
+    height: 4px;
+    }
+    
+    #About {
+    top: 675px;
+    height: 4px;
+    }
+    
+    .bar-3 {
+    top: 2102px;
+    height: 4px;
+    }
+   
+    .bar-4{
+    top: 2778px;
+    height: 4px;
+    }
+    
+    h6{
+    left: 13.5%;
+    margin-top: 3320px; 
+    grid-template-columns: 340px;  
+    font-size: 40px;
+    } 
+    
+    .kathi-roll {
+    left: 100px;
+    top: 3800px;
+}    
+    
+    .pho {
+    left: 450px;
+    top: 3800px;
+ }  
+    
+    .rasfroyo {
+    left: 100px;
+    top: 4080px;
+        }
+    
+    .mex-kale{
+    left: 450px;
+    top: 4080px;
+         }
+    
+     .soup {
+    left: 100px;
+    top: 4360px; 
+        } 
+    
+    .chili {
+    left: 450px;
+    top: 4360px; 
+        }  
+    .container {
+    min-height: 4700px;
+    }
+    
+    .footer{
+    top: 4700px;
+    }
+}
+        
+/* Small Devices, Tablets */      
+@media only screen and (min-width : 768px) {
+  
+    h1 { 
+    font-size: 40px;
+    left: 100px;
+    margin-top: 120px;
+    grid-template-columns: auto;
+    }
+    
+    .h2 {
+    font-size: 18px;
+    left: 100px;
+    margin-top: 180px;   
+    grid-template-columns: 370px;
+    }
+   
+    .button {
+    margin-left: 100px;
+    margin-top: 350px;
+    font-size: 18px;
+    font-weight: 550;
+    }
+
+    .food-heart {
+    height: 550px;
+    left: 50%;
+    }
+    
+    .h3{
+    left: 43.5%;
+    top: 810px; 
+    grid-template-columns: 380px;
+    font-size: 16px;
+}
+    
+    .small-plates{
+    height: 500px;
+    left: -32%;
+    margin-top: 679px; 
+    /* top: 679px; */
+}
+    .h4{
+    left: 100px;
+    margin-top: 1110px;   
+    grid-template-columns: 300px;
+    font-size: 16px;
+}
+    
+    .salad-berries {
+    height: 550px;
+    left: 30%;
+    margin-top: 1382px; 
+    /* top: 1382px; */
+}
+    
+    .legrainsfish {
+    left: 43.5%;
+    margin-top: 1850px; 
+    grid-template-columns: 350px;  
+    font-size: 16px;
+    }   
+    
+    .pastafish {
+    height: 500px;
+    left: -30%;
+    margin-top: 2106px; 
+    /* top: 2106px; */
+    }
+    
+    h5 { 
+    font-size: 40px;
+    left: 100px;
+    margin-top: 2540px;
+    grid-template-columns: auto;
+        
+    }
+    
+    .herbspices {
+    left: 100px;
+    margin-top: 2620px; 
+    grid-template-columns: 350px 350px;  
+    grid-column-gap: 40px;
+    font-size: 16px;      
+    }
+    
+    h6 { 
+    font-size: 40px;
+    left: 100px;
+    margin-top: 3300px;
+    grid-template-columns: auto;
+        
+    }
+    .kathi-roll {
+    left: 100px;
+    top: 3800px;
+}    
+    .pho {
+    left: 450px;
+    top: 3800px;
+        }  
+    
+    .rasfroyo {
+    left: 100px;
+    top: 4080px;
+        }
+    
+    .mex-kale{
+    left: 450px;
+    top: 4080px;
+         }
+
+    .soup {
+    left: 100px;
+    top: 4360px; 
+        } 
+    .chili {
+    left: 450px;
+    top: 4360px; 
+        }  
+    }
+    
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    .food-heart {
+    height: 570px;
+    left: 30%;
+        }
+        
+    .h3{
+    left: 47%;
+    top: 820px; 
+    grid-template-columns: 440px;
+    font-size: 17px;
+}
+        
+    .small-plates{
+    height: 600px;
+    left: -33%;
+    margin-top: 679px; 
+    /* top: 679px; */
+}
+       
+    .salad-berries {
+    height: 620px;
+    left: 27%;
+    margin-top: 1382px;
+    /* top: 1382px; */
+}
+    .h4{
+    left: 100px;
+    margin-top: 1150px;   
+    grid-template-columns: 420px;
+    font-size: 17px;
+}
+    .legrainsfish {
+    left: 47%;
+    margin-top: 1860px; 
+    grid-template-columns: 440px;  
+    font-size: 17px;
+    }   
+        
+    .pastafish {
+    height: 600px;
+    left: -32%;
+    margin-top: 2106px; 
+    /*top: 2106px; */
+    }
+    
+    .herbspices {
+    left: 100px;
+    margin-top: 2620px; 
+    grid-template-columns: 420px 450px;  
+    grid-column-gap: 90px;
+    font-size: 17px;
+    }
+    
+    .kathi-roll {
+    left: 100px;
+    top: 3800px;
+}    
+        
+    .pho {
+    left: 450px;
+    top: 3800px;
+        }  
+        
+    .rasfroyo {
+    left: 800px;
+    top: 3800px;
+        }
+        
+    .mex-kale{
+    left: 100px;
+    top: 4080px;
+         }
+        
+    .soup {
+    left: 450px;
+    top: 4080px; 
+        }    
+    
+    .chili {
+    left: 800px;
+    top: 4080px; 
+        }    
+        
+    .container {
+    min-height: 4400px;
+     }
+    
+    .footer{
+    top: 4400px;
+        }
+}   
+        
+        }
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    .food-heart {
+    height: 570px;
+    left: 30%; } 
+    
+    }

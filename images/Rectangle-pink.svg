@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="217px" height="125px" viewBox="0 0 217 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="59.5839479%" y1="25.3483095%" x2="23.5375876%" y2="118.786747%" id="linearGradient-1">
+            <stop stop-color="#FDC5D3" offset="0%"></stop>
+            <stop stop-color="#FA355A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.359486607">
+        <g id="Desktop-HD" transform="translate(-487.000000, 0.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M499.293082,72.5537102 L676.867207,-51.7850312 C689.906674,-60.9153641 707.878847,-57.746385 717.00918,-44.7069183 C726.139513,-31.6674517 722.970534,-13.6952782 709.931067,-4.56494536 L532.356942,119.773796 C519.317475,128.904129 501.345302,125.73515 492.214969,112.695683 C483.084636,99.6562165 486.253615,81.684043 499.293082,72.5537102 Z" id="Rectangle-Copy-3"></path>
+        </g>
+    </g>
+</svg>

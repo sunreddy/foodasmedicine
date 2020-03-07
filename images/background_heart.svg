@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="961px" height="926px" viewBox="0 0 961 926" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="9.00266649%" y1="85.6325384%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FAD5C6" offset="0%"></stop>
+            <stop stop-color="#FCDACC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.201004">
+        <g id="Landing_Page_Food_is_Medicine" transform="translate(-855.000000, 0.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1019.53481,243.646716 L1353.89844,0 L1816,0 L1816,553 L1477.50781,830.515625 L1477.39018,830.373324 C1411.31353,889.822579 1323.88161,926 1228,926 C1021.99779,926 855,759.002212 855,553 C855,424.212868 920.269742,310.670301 1019.53481,243.646716 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

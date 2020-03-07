@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="277px" height="150px" viewBox="0 0 277 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="43.5495729%" y1="49.96328%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#7D5BDB" offset="0%"></stop>
+            <stop stop-color="#4F35BA" offset="66.5332031%"></stop>
+            <stop stop-color="#30189A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.359486607">
+        <g id="Desktop-HD" transform="translate(-319.000000, -874.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <rect id="Rectangle-Copy-4" transform="translate(402.079636, 1024.295313) rotate(-35.000000) translate(-402.079636, -1024.295313) " x="176.37585" y="976.884163" width="451.40757" height="94.8223003" rx="47.4111501"></rect>
+        </g>
+    </g>
+</svg>

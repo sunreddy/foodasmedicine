@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="265px" height="153px" viewBox="0 0 265 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="43.5495729%" y1="49.96328%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#7D5BDB" offset="0%"></stop>
+            <stop stop-color="#4F35BA" offset="66.5332031%"></stop>
+            <stop stop-color="#30189A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.359486607">
+        <g id="Landing_Page_Food_is_Medicine" transform="translate(-405.000000, -871.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M399.688256,934.675979 L653.935448,934.675979 C673.541557,934.675979 689.435448,950.56987 689.435448,970.175979 L689.435448,970.175979 C689.435448,989.782087 673.541557,1005.67598 653.935448,1005.67598 L499.922301,1005.67598 L399.688256,934.675979 Z" id="Rectangle-Copy-4" transform="translate(544.561852, 970.175979) rotate(-35.000000) translate(-544.561852, -970.175979) "></path>
+        </g>
+    </g>
+</svg>
