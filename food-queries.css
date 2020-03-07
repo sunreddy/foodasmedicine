@@ -37,7 +37,7 @@
         
     .food-heart-mobile {
     height: 230px;
-    left: 0%;
+    left: -3%;
     margin-top: 450px; 
    /* top: 450px; */
     }
@@ -96,7 +96,7 @@
     }
         
     #Recipes {
-    top: 4620px;
+    top: 4630px;
     height: 2.5px;
     }
     
