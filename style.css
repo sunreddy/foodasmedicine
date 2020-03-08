@@ -1,13 +1,14 @@
 
 html {
     scroll-behavior: smooth;
-     overflow-x: hidden !important;
+     overflow-x: hidden !important; 
 }
 
 body {
     margin: 0;
     overflow-x: hidden !important;
     /* position: relative; */
+    overflow-y: hidden;
 }
 .container {
     /*margin: 0 auto; */
