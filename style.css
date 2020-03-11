@@ -7,11 +7,13 @@ html {
 body {
     margin: 0;
     overflow-x: hidden !important;
+    overflow: hidden;
+    overflow-y: auto;
     /* position: relative; */
 }
 .container {
     /*margin: 0 auto; */
-    max-width: 2000px;
+   /* max-width: 2000px; */
     text-align: left;
     overflow: hidden;
     box-sizing: content-box;
@@ -262,8 +264,6 @@ body {
 }
 
 
-
-
 /**********************PAGE 2 ABOUT *******************************/
 
 /* First bar */
@@ -379,6 +379,7 @@ body {
     }
 }
 */
+
 
 /***************PAGE 3 BERRIES CRUCIFEROUS VEGEGETABLES FRUITS ******************/
 
