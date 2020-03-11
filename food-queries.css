@@ -64,7 +64,7 @@
     .salad-mobile {
      height: 240px;
      left: 0%;
-     margin-top: 2230px; 
+     margin-top: 2250px; 
     /* top: 2230px; */
 } 
     .legrainsfish {
@@ -78,7 +78,7 @@
     height: 240px;
     left: 0%;
     /*margin-top: 3140px; */
-    top: 3140px;
+    top: 3150px;
         } 
         
     h5 { 
@@ -107,12 +107,12 @@
     }  
         
     .bar-3 {
-    top: 2550px;
+    top: 2570px;
     height: 2.5px;
     }
     
     .bar-4 {
-    top: 3450px;
+    top: 3460px;
     height: 2.5px;
     }    
       
@@ -201,11 +201,6 @@
     top: 740px;
     height: 2.5px;
     } 
-    
-    .bar-4 {
-    top: 3450px;
-    height: 2.5px;
-    }  
        
     h6 { 
     font-size: 27px;
