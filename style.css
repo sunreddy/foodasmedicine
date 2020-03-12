@@ -271,7 +271,6 @@ body {
     position: absolute;
     /*top: 675px;
     height: 4px; */
-    /* width: 10000px; */
     width: 100%;
     background-color: #FAD5C6;
     opacity: 0.25;
@@ -367,7 +366,6 @@ body {
     position: absolute;
     /*top: 1378px;
     height: 4px; */
-    /* width: 10000px; */
     width: 100%;
     background-color: #FAD5C6;
     opacity: 0.25;
@@ -475,7 +473,6 @@ body {
     position: absolute;
     /*top: 2102px;
     height: 4px;*/
-    /* width: 10000px; */
     width: 100%;
     background-color: #FAD5C6;
     opacity: 0.25;
@@ -572,7 +569,6 @@ body {
     position: absolute;
     /*top: 2778px;
     height: 4px; */
-   /* width: 10000px;*/
     width: 100%;
     background-color: #FAD5C6;
     opacity: 0.25;
@@ -670,7 +666,6 @@ h5 {
 /*Recipes bar*/
 #Recipes { 
     position: absolute;
-    /* width: 10000px; */
     width: 100%;
     background-color: #FAD5C6;
     opacity: 0.25;
