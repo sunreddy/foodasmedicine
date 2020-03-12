@@ -97,28 +97,31 @@
     
     .bar-2 {
     top: 1730px;
-    height: 2.5px;
+    height: 4px;
     }  
     
     /*First bar*/
     #About {
     top: 740px;
-    height: 2.5px;
+    height: 4px;
+    /* height: 990px; */
+    z-index: -1;
+    
     }  
         
     .bar-3 {
     top: 2570px;
-    height: 2.5px;
+    height: 4px;
     }
     
     .bar-4 {
     top: 3465px;
-    height: 2.5px;
+    height: 4px;
     }    
       
     #Recipes {
     top: 4680px;
-    height: 2.5px;
+    height: 4px;
     }    
         
     h6 { 
@@ -194,7 +197,9 @@
         
     #About {
     top: 740px;
-    height: 2.5px;
+   /* height: 990px; */
+    z-index: -1;
+   
     } 
        
     h6 { 
@@ -307,27 +312,27 @@
         
     .bar-2 {
     top: 1690px;
-    height: 2.5px;
+    height: 4px;
     } 
     
     #About {
     top: 760px;
-    height: 2.5px;
+    height: 4px;
     }   
         
     .bar-3 {
     top: 2490px;
-    height: 2.5px;
+    height: 4px;
     }
     
     .bar-4 {
     top: 3310px;
-    height: 2.5px;
+    height: 4px;
     }  
         
     #Recipes {
     top: 4240px;
-    height: 2.5px;
+    height: 4px;
     }    
        
     h6{
