@@ -16,10 +16,10 @@
 }   
         
     h1 { 
-    font-size: 27px;
+    font-size: 26px;
     left: 13.5%;
     margin-top: 120px;
-    grid-template-columns: 270px;
+    grid-template-columns: 290px;
      }
         
     .h2 {
@@ -82,7 +82,7 @@
         } 
         
     h5 { 
-    font-size: 27px;
+    font-size: 26px;
     left: 13.5%;
     margin-top: 3150px;
     grid-template-columns: 270px;
@@ -125,7 +125,7 @@
     }    
         
     h6 { 
-    font-size: 27px;
+    font-size: 26px;
     left: 13.5%;
     margin-top: 4360px;
     grid-template-columns: 270px;
@@ -176,10 +176,10 @@
     @media only screen and (min-width : 480px) {
         
     h1 { 
-    font-size: 30px;
+    font-size: 26px;
     left: 13.5%;
     margin-top: 120px;
-    grid-template-columns: 270px;
+    grid-template-columns: 290px;
     } 
         
     .button {
@@ -189,7 +189,7 @@
     font-weight: 450;  }
    
      h5 { 
-    font-size: 30px;
+    font-size: 26px;
     left: 13.5%;
     margin-top: 3150px;
     grid-template-columns: 270px;
@@ -203,7 +203,7 @@
     } 
        
     h6 { 
-    font-size: 30px;
+    font-size: 26px;
     left: 13.5%;
     margin-top: 4365px;
     grid-template-columns: 270px;
