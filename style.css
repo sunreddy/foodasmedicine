@@ -146,7 +146,7 @@ body {
 }
 
  h1 {
-    font-family: Athelas, Serif;
+    font-family: Athelas, Times New Roman;
     font-weight: normal;
     letter-spacing: 3px;
     color: #37cbaa;
@@ -158,9 +158,9 @@ body {
 
 
 .h2{
-    font-family: Athelas, Serif;
+    font-family: Athelas, Times New Roman;
     font-weight: normal;
-    letter-spacing: 1.64px;
+    letter-spacing: 1.4px;
     color: #4a4a4a;
     position: absolute;
     display: grid; 
@@ -285,7 +285,7 @@ body {
 
 
 .h3{
-    font-family: Athelas, Serif;
+    font-family: Athelas, Times New Roman;
     font-weight: normal;
     letter-spacing: 1px;
     color: #4a4a4a;
@@ -382,7 +382,7 @@ body {
 
 
 .h4{
-    font-family: Athelas, Serif;
+    font-family: Athelas, Times New Roman;
     font-weight: normal;
     letter-spacing: 1px;
     color: #4a4a4a;
@@ -489,7 +489,7 @@ body {
 
 
 .legrainsfish {
-    font-family: Athelas, Serif;
+    font-family: Athelas, Times New Roman;
     font-weight: normal;
     letter-spacing: 1px;
     color: #4a4a4a;
@@ -584,7 +584,7 @@ body {
 /******************PAGE 5 HERBS AND SPICES ***********************/
 
 h5 {
-    font-family: Athelas, Serif;
+    font-family: Athelas, Times New Roman;
     font-weight: normal;
     letter-spacing: 3px;
     color: #37cbaa;
