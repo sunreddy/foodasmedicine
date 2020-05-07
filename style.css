@@ -273,16 +273,7 @@ body {
     opacity: 0.25;
     left: 0px;
     border: none;
-
 }
-/*@media only screen and (max-width:700px) {
-    #About {
-    top: 760px;
-    height: 2.5px;
-    }
-} */
-
-
 
 .h3{
     font-family: Athelas, Times New Roman;
@@ -292,6 +283,10 @@ body {
     position: absolute;
     display: grid;
     grid-row-gap: 20px;
+    z-index: 5;
+}
+.h3 a {
+    text-decoration: none;
 }
 
 .small-plates{
@@ -368,15 +363,7 @@ body {
     opacity: 0.25;
     left: 0px;
     border: none;
-} /*
-@media only screen and (max-width:700px) {
-    .bar-2 {
-    top: 1730px;
-    height: 2.5px;
-    }
-}
-*/
-
+} 
 
 /***************PAGE 3 BERRIES CRUCIFEROUS VEGEGETABLES FRUITS ******************/
 
@@ -389,8 +376,11 @@ body {
     position: absolute;
     display: grid;
     grid-row-gap: 20px;
+    z-index: 5;
 }
-
+.h4 a {
+    text-decoration: none;
+}
 .salad-mobile {
       width: 100%;
       position: absolute;
@@ -477,13 +467,6 @@ body {
     border: none;
 }
 
-/* @media only screen and (max-width:700px) {
-    .bar-3 {
-    top: 2560px;
-    height: 2.5px;
-    }
-} */
-
 /******************PAGE 4 LEGUMES GRAINS FISH ***********************/
 
 
@@ -496,6 +479,11 @@ body {
     position: absolute;
     display: grid;
     grid-row-gap: 20px;
+    z-index: 5;
+}
+
+.legrainsfish a {
+    text-decoration: none;
 }
 
 .pastafish{
@@ -573,14 +561,6 @@ body {
     border: none;
 }
 
-/*@media only screen and (max-width:700px) {
-    .bar-4 {
-    top: 3450px;
-    height: 2.5px;
-    }
-} */
-
-
 /******************PAGE 5 HERBS AND SPICES ***********************/
 
 h5 {
@@ -590,7 +570,6 @@ h5 {
     color: #37cbaa;
     position: absolute;
     display: grid;
-
 }
 
 .herbspices {
@@ -602,7 +581,9 @@ h5 {
     display: grid;
     grid-row-gap: 20px;
 }
-
+.herbspices a {
+    text-decoration: none;
+}
 
 .Rectangle-pink-5 {
   width: 100%;
